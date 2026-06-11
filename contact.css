@@ -1,0 +1,116 @@
+/* contact part 1 */
+.text{
+  border:2px solid gray;
+border-radius:10px;
+padding:5px;
+font-size: larger;
+
+
+
+}
+.email{
+  border:2px solid gray;
+border-radius:10px;
+ padding:5px;
+ font-size: larger;
+  
+
+}
+.subject{
+  border:2px solid gray;
+border-radius:10px;
+padding:5px;
+font-size: larger;
+
+}
+.message{
+  border:2px solid gray;
+border-radius:10px;
+padding:8px;
+font-size: larger;
+}
+/* modifiaction des buttons  */
+button {
+  background-color:blue;
+  color:white;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+ font-size: 20px ;
+ /* font family pour definir le type décriture */
+ font-family:monospace;
+ /* modification cusror de type pointer  */
+cursor: pointer; 
+width: 100px;
+
+}
+/* hover effect pour tous les buttons de tous les pages qu ils contient un button */
+button:hover{
+
+background-color: black;
+color: blue;
+
+
+}
+
+
+/* contact part 2  flex box */
+.contact{
+    display: flex;
+    /* lespace entre les deux clonnes cotact form et contact info */
+     gap: 10px ;  
+   
+}
+.contact-form{
+    /* la premiere partie prend 50 % de la page */
+    width: 50%;
+    /* lespace entre le contenu et broder */
+    
+     background-color: rgba(255, 255, 255, 0.565);
+    
+    margin-top: 5px;
+    padding: 30px;
+    border-radius: 70px;
+   
+}
+.contact-info{
+    width: 50%;
+ background-color: rgba(255, 255, 255, 0.565);
+    margin-top: 5px;
+    padding: 30px;
+    border-radius: 70px;
+}
+    
+body{
+    background-image:url(photo_2026-03-14_15-43-52.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+/* outline veut dire le cadre entourer du champ reserver pour l ecriture */
+input:focus,textarea:focus{
+
+border-color: rgb(155, 159, 42);
+border-radius: 20px;
+outline: none;
+}
+.input-with-effect :hover {
+
+border-radius: 20px;
+width:500px;
+background: rgba(0, 0,0, 0,1);
+ box-shadow: 0 0 20px #d4ff00;
+}
+/* les chaps un apres lautre */
+.input .input-with-effect{
+  display: flex;
+  flex-direction: column;
+width: 500px;
+background-color: rgba(0, 0, 0, 0,1);
+
+}
+.information{
+    font-family: cursive;
+    font-size: large;
+}

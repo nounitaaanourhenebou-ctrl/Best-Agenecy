@@ -1,0 +1,103 @@
+/* les titres des cartes */
+.titre{ 
+  font-size: 25PX;
+}
+
+.plans{
+display:flex;
+gap:90px;
+}
+.plan{
+background:white;
+padding:30px;
+border-radius:10px;
+border:1px solid #ccc;
+width:400px;
+
+}
+.plan:hover{
+    box-shadow: 6px 0px rgba(0, 0, 0, 0.044);
+   /* Y pour faire un movement verticale et le moins veut dire vers le haut*/
+   transform: translateY(-20px);
+}
+.distinctcard{
+ border: 7px solid blue;
+ border-radius: 20PX;
+ 
+
+}
+
+button {
+  background-color:blue;
+  color:white;
+  border: none;
+  padding: 10px ,40px;
+  border-radius: 10px;
+ font-size: 18px;
+ font-family:monospace;
+cursor: pointer; 
+}
+button:hover{
+
+background-color: black;
+color: blue;
+
+}
+
+/* outline veut dire le cadre entourer du champ reserver pour l ecriture */
+input:focus,textarea:focus{
+outline-color: blue;
+border-radius: 7px;}
+
+.membership{
+
+ background-color: rgba(255, 255, 255, 0.565);
+    width: 90%;
+    margin: auto;
+    margin-top: 130px;
+    padding: 30px;
+    border-radius: 70px;
+    box-shadow: 80px 100px 50px rgba(0,0,0,0.3);
+
+}
+.registirationform{
+ background-color: rgba(255, 255, 255, 0.565);
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 70px;
+ box-shadow: 80px 100px 50px rgba(0,0,0,0.3);
+}
+ .paymentmethod{
+  background-color: rgba(255, 255, 255, 0.565);
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 70px;
+     box-shadow: 80px 100px 50px rgba(0,0,0,0.3);
+ }
+
+.titlee{
+background-color: rgba(255, 255, 255, 0.565);
+    display:flex;
+    position:fixed;
+    top:0;
+    right:10px;
+    left:10Px;
+border-radius: 20px;
+font-size: 15px; 
+box-shadow: 0 0 40px rgba(0,0,0,0.3);
+
+
+
+}
+
+body{
+    background-image:url(photo_2026-03-14_15-43-52.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}

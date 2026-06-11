@@ -1,0 +1,83 @@
+
+table{
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  
+  
+}
+/* classes part  */
+.beginner{
+background-color: #af4c4c;
+color: rgb(255, 255, 255);
+padding:4px;
+border-radius:5px;
+}
+
+.intermediate{
+background-color: rgba(255, 166, 0, 0.704);
+color:rgb(255, 255, 255);
+padding:4px;
+border-radius:5px;
+}
+
+.advanced{
+background-color: rgba(0, 255, 42, 0.584);
+color:rgb(255, 255, 255);
+padding:4px;
+border-radius:5px;
+}
+
+/* striped rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2b2;
+}
+
+
+.titlee{
+background-color:rgb(242, 232, 232);
+    display:flex;
+    position:fixed;
+    top:0;
+    right:10px;
+    left:10Px;
+border-radius: 20px;
+font-size: 15px;
+
+}
+/* pour modifier le contenu des pages ecriture.... */
+
+
+body{
+    background-image:url(photo_2026-03-14_15-43-52.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial;
+}
+
+.classes{
+    background-color: rgba(255, 255, 255, 0.565);
+    width: 100%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.3);
+   height: 1300px;
+}
+th,td{ 
+border: 1px solid black;
+text-align: center;
+padding: 10px;
+height: 100px;
+
+
+}
+th{
+  background-color: rgb(197, 199, 184);
+}
+tr:nth-child(odd) {
+  background-color: rgb(197, 199, 184) ;
+}
+
+  

@@ -1,0 +1,111 @@
+
+
+/* trainers part  */
+
+.card{
+ padding: 30px;
+    border-radius: 70px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    /* la position du texte des cartes */
+    text-align:center;
+
+     font-size: 16PX;
+
+ /* pour fixer la longeur des cartes */
+  height: 460px;
+  background-color: rgba(240, 248, 255, 0.438);
+  
+
+
+}
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(224, 237, 80, 0.842);
+  
+
+   
+    
+}
+
+
+.trainer-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+  
+}
+
+@media  (max-width:900px){
+    .trainer-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:600px){
+    .trainer-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* pour modifer la derniere de la page trainers */
+.footer{
+    align-items: center;
+    background-color:black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+   border-radius: 40px;
+  
+}
+/* modification de tous les @ dans footer   */
+.footer a{
+color: blue;
+/* pour supprimer la ligne sous tous les liens dans footer */
+text-decoration: none;
+}
+
+/* pour modifier le titre de tous les pages */
+.titlee{
+
+background-color:  rgba(255, 255, 255, 0.565);;
+    display:flex;
+    position:fixed;
+    top:0;
+    right:10px;
+    left:10Px;
+border-radius: 20px;
+font-size: 20px;
+
+}
+/* pour modifier le contenu des pages ecriture.... */
+.box-trainer{
+
+
+    border-radius: 150px;
+    width: 100%;
+    margin-top: 200px;
+}
+/* les images des entraineirs  */
+.img{
+width: 150px;
+border-radius: 50%;
+border: 5px solid burlywood;
+ }
+/* pour supprimer la ligne sous les links dans la partie des entraineurs  */
+.link1{
+  text-decoration: none;
+  font-size: 20px;
+
+
+}
+body{
+    background-image:url(photo_2026-03-14_15-43-52.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial;
+ 
+    
+}
